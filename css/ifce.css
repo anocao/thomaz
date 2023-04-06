@@ -1,0 +1,162 @@
+
+body{
+    background-color: #515940;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display:inline-block
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 40px;
+    font-style: italic;
+    color: #9ca870;
+    font-weight: bold;
+    font-family: 'Didot';
+    text-shadow: -2px -2px 0 #ffffff ;
+}
+
+.container{
+    max-width: 100%;
+    padding: 3%;
+    margin: auto;
+}
+
+.links{
+    list-style: none;
+    font-weight: bold;   
+    font-family: 'Candara';
+
+}
+
+nav a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a{
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #9ca870;
+    text-shadow: -2px -1px 0 #ffffff;
+    position: relative;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+
+.titulo{
+    padding-left: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family:'Didot';
+    color: #9ca870;
+    text-shadow: -2px -1px 0 #ffffff ;
+}
+
+.subtitulo{
+    font-weight: bold;
+    font-family:'Courier New';
+    margin-left: 40px;
+    color: #ffffff;
+}
+.subtitulo2{
+    font-weight: bold;
+    font-family:'Courier New';
+    margin-left: 40px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.subtitulo3{
+    font-weight: bold;
+    font-family:'Courier New';
+    text-align: right;
+    margin-right: 80px;
+    color: #ffffff;
+}
+
+.p1{
+        margin-left: 40px;
+        font-size: 20px; 
+        margin-right: 30px;
+        font-family:'Candara';
+}
+
+
+.a1{
+    display: flex;
+}
+
+.a2{
+    text-align: center;
+}
+
+
+.p1{
+    margin-left: 40px;
+    font-size: 20px; 
+    margin-right: 30px;
+    font-family:'Candara';
+    color: #ffffff;
+}
+
+.imagem1{
+    height: 330px;
+    margin-right: 50px;
+    align-items: left;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #6B734D;
+}
+
+.p2{
+    font-size: 20px;
+    font-family:'Candara';
+    margin-left: 20px;
+    padding: 80px;
+    color: #ffffff;
+}
+
+.imagem2{
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    margin: 30px;
+    box-shadow: 10px 10px 5px #6B734D;
+}
+
+.imagem3{
+    border-radius: 20px;
+    border-style: inset;
+    width: 800px;
+    height: 400px;
+
+}
+
+.imagem4{
+    height: 330px;
+    margin: 40px;
+    align-items: left;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #6B734D;
+}
